@@ -8,6 +8,9 @@
 
 **BFMNet** is a novel deep learning framework designed for the accurate and efficient segmentation of multi-modal cell microscopic images. As a core component of High-Content Imaging and Analysis (HCIA), this framework addresses common challenges in multi-modal segmentation such as missed cell detection in low-contrast regions, image degradation (noise/artifacts), and insufficient feature utilization.
 
+<div align="center">
+  <img src="BFMNet/BFMNet Architecture.png" alt="BFMNet Architecture" width="100%">
+
 BFMNet achieves state-of-the-art performance by integrating three core modules:
 1.  **Weighted Bi-directional Feature Pyramid Network (BiFPN)**
 2.  **Frequency-Aware Feature Fusion (FreqFusion)**
