@@ -11,7 +11,7 @@ if __name__ == '__main__':
         data=r'C:\Users\PC\Desktop\data5.yaml',
         epochs=200,  # (int) 训练的周期数
         patience=20,  # (int) 等待无明显改善以进行早期停止的周期数
-        batch=4,  # (int) 每批次的图像数量（-1 为自动批处理）
+        batch=9,  # (int) 每批次的图像数量（-1 为自动批处理）
         imgsz=640,  # (int) 输入图像的大小，整数或w，h
         save=True,  # (bool) 保存训练检查点和预测结果
         save_period=20,  # (int) 每x周期保存检查点（如果小于1则禁用）
@@ -68,5 +68,6 @@ if __name__ == '__main__':
         mosaic=1.0,  # (float) 图像马赛克（概率）
         mixup=0.0,  # (float) 图像混合（概率）
         copy_paste=0.0,  # (float) 分割复制-粘贴（概率）
+
 
 )
