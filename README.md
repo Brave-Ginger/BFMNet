@@ -18,7 +18,7 @@ The model demonstrates robust generalization across Brightfield, Fluorescence, P
 ## 🚀 Key Features
 
 * **High Precision:** Achieves **95.07% mAP50** and **96.72%** cell detection rate on dual-modal mouse glioma datasets.
-* **High Efficiency:** operates at **59.23 FPS** with only **8.61M parameters** (tested on RTX 4070 Ti), making it significantly faster than Mask R-CNN and comparable to lightweight YOLO models.
+* **High Efficiency:** operates at **41.93G FLOPs** with only **8.61M parameters** (tested on RTX 4070 Ti SUPER), making it significantly faster than Mask R-CNN and comparable to lightweight YOLO models.
 * **Robustness:** Effectively handles blurred boundaries, artifacts, and noise without requiring manual parameter tuning or algorithm switching between modalities.
 
 ## 🛠️ Architecture
