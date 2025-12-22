@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 if __name__ == '__main__':
     # 加载模型
-    model = YOLO(r'C:\Users\PC\Desktop\runs\train\exp10\weights\best.pt')  # YOLOv8n模型
+    model = YOLO(r'C:\Users\PC\Desktop\runs\train\exp10\weights\weight.pt') 
     results = model(max_det=800)
 model.predict(
     source=r'C:\Users\PC\Desktop\2222\cellpose',
@@ -29,4 +29,5 @@ model.predict(
     boxes=False,  # 显示边界框
     cache=True,  # (bool) True/ram、磁盘或False。使用缓存加载数据
 )
+
 
